@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="https://img.icons8.com/?size=512&id=55494&format=png" width="20%" alt="NEXT.JS-BOILERPLATE-logo">
+</p>
+<p align="center">
+    <h1 align="center">NEXT.JS BOILERPLATE</h1>
+</p>
+<p align="center">
+    <em><code>❯ A feature-rich Next.js boilerplate</code></em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/coolshatul/Next.js-Boilerplate?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/coolshatul/Next.js-Boilerplate?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/coolshatul/Next.js-Boilerplate?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/coolshatul/Next.js-Boilerplate?style=flat&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center">
+		<em>Built with the tools and technologies:</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+	<img src="https://img.shields.io/badge/PostCSS-DD3A0A.svg?style=flat&logo=PostCSS&logoColor=white" alt="PostCSS">
+	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+	<img src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&logo=ESLint&logoColor=white" alt="ESLint">
+	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+</p>
+
+<br>
+
+##### Table of Contents
+
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Repository Structure](#-repository-structure)
+- [ Getting Started](#-getting-started)
+  - [ Prerequisites](#-prerequisites)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+  - [ Tests](#-tests)
+- [ Project Roadmap](#-project-roadmap)
+
+---
+
+## Overview
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## Features
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## Repository Structure
+
+```sh
+└── Next.js-Boilerplate/
+    ├── README.md
+    ├── app
+    │   ├── about
+    │   ├── contact
+    │   ├── favicon.ico
+    │   ├── fonts
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   ├── page.tsx
+    │   └── privacy
+    ├── components
+    │   ├── navbar.tsx
+    │   ├── theme-provider.tsx
+    │   └── theme-toggle.tsx
+    ├── components.json
+    ├── lib
+    │   └── utils.ts
+    ├── next.config.mjs
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tailwind.config.ts
+    └── tsconfig.json
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**TypeScript**: `version x.y.z`
+
+### Installation
+
+Build the project from source:
+
+1. Clone the Next.js-Boilerplate repository:
+
+```sh
+❯ git clone https://github.com/coolshatul/Next.js-Boilerplate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+❯ cd Next.js-Boilerplate
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Install the required dependencies:
 
-## Learn More
+```sh
+❯ npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the project, execute the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```sh
+❯ npm run build && node dist/main.js
+```
 
-## Deploy on Vercel
+### Tests
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Execute the test suite using the following command:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+❯ npm test
+```
