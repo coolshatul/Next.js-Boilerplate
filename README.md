@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://img.icons8.com/?size=512&id=55494&format=png" width="20%" alt="NEXT.JS-BOILERPLATE-logo">
+  <img src="https://img.icons8.com/?size=512&id=55494&format=png" width="20%" alt="NEXTJS-BOILERPLATE-logo">
 </p>
 <p align="center">
-    <h1 align="center">NEXT.JS BOILERPLATE</h1>
+    <h1 align="center">NEXTJS BOILERPLATE</h1>
 </p>
 <p align="center">
-    <em><code>❯ A feature-rich Next.js boilerplate</code></em>
+    <em><code>❯ A feature-rich Nextjs boilerplate</code></em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/coolshatul/Next.js-Boilerplate?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/coolshatul/Next.js-Boilerplate?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/coolshatul/Next.js-Boilerplate?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/coolshatul/Next.js-Boilerplate?style=flat&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/coolshatul/Nextjs-Boilerplate?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/coolshatul/Nextjs-Boilerplate?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/coolshatul/Nextjs-Boilerplate?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/coolshatul/Nextjs-Boilerplate?style=flat&color=0080ff" alt="repo-language-count">
 </p>
 <p align="center">
 		<em>Built with the tools and technologies:</em>
@@ -56,7 +56,7 @@
 ## Repository Structure
 
 ```sh
-└── Next.js-Boilerplate/
+└── Nextjs-Boilerplate/
     ├── README.md
     ├── app
     │   ├── about
@@ -88,22 +88,22 @@
 
 ### Prerequisites
 
-**TypeScript**: `version x.y.z`
+**Next.js**: `version 14.2.13`
 
 ### Installation
 
 Build the project from source:
 
-1. Clone the Next.js-Boilerplate repository:
+1. Clone the Nextjs-Boilerplate repository:
 
 ```sh
-❯ git clone https://github.com/coolshatul/Next.js-Boilerplate
+❯ git clone https://github.com/coolshatul/Nextjs-Boilerplate
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-❯ cd Next.js-Boilerplate
+❯ cd Nextjs-Boilerplate
 ```
 
 3. Install the required dependencies:
@@ -117,7 +117,7 @@ Build the project from source:
 To run the project, execute the following command:
 
 ```sh
-❯ npm run build && node dist/main.js
+❯ npm run dev
 ```
 
 ### Tests
